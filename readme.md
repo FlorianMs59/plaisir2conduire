@@ -10,6 +10,29 @@
 ``` 
 ## 2 - Création de la BDD
 
+### a) User :
+```fix
+    - email
+    - password
+    - pseudo
+    - prenom
+    - nom
+    - date_de_naissance
+    - cp
+    - regions
+    - pays
+```
+### b) Véhicules :
+```fix
+    - categorie
+    - marque
+    - modèle
+    - puissance
+    - type de permis
+    - photo
+    - description
+```
+
 ## 3 - Inscription/connexion
 ```fix
     formulaires

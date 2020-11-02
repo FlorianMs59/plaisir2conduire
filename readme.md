@@ -35,7 +35,10 @@
 
 ## 3 - Inscription/connexion
 ```fix
-    formulaires
+    php bin/console make:auth
+    php bin/console make:register-form
+    php bin/console make:reset-password-form
+    
 ```
 ## 4 - Page d'accueil
 ```fix

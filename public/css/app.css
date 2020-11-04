@@ -1,0 +1,25 @@
+.navbar {
+    background-color: #1e2761;
+    height: 80px;
+}
+#logo {
+    width: 150px;
+    position: relative;
+    top: 35px;
+    border-radius: 10px;
+}
+a.nav-link {
+    background-color: #1e2761 !important;
+    border-radius: 15px;
+    margin-right: 24px;
+    position: relative;
+    top: 38px;
+    padding: 8px 36px !important;
+    background-color: black;
+    transition: all .3s;
+    font-family:  Montserrat;
+}
+a.nav-link:hover {
+    border-bottom: 4px solid #7a2048;
+    background-color: #353ea7;
+}

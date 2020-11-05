@@ -1,3 +1,4 @@
+/* MAIN MENU */
 .navbar {
     background-color: #1e2761;
     height: 80px;
@@ -27,5 +28,43 @@ a.nav-link:hover {
 }
 .navbar-toggler-icon {
     background-color: #fff;
-    border-radius: 50%;
+    border-radius:40%;
+    position: relative;
+    height: 30px;
+    border: 4px solid #408ec6;
 }
+
+/* MENU HAMBURGER */
+.closebtn {
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    right: 20%;
+}
+.navbar-collapse {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1e2761;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+}
+.navbar--collapse a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;  
+}
+
+
+
+
+
+

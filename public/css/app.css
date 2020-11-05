@@ -24,6 +24,7 @@ a.nav-link {
 }
 a.nav-link:hover {
     border-top: 4px solid #408ec6;
+    border-bottom: 4px solid #408ec6;
     background-color: #353ea7;
 }
 .navbar-toggler-icon {
@@ -42,7 +43,7 @@ a.nav-link:hover {
     left: 0;
     top: 0;
     background: #1e2761;
-    transition: all .5s;
+    transition: all .6s;
 }
 .show.navbar-nav > .nav-link {
     /* width: 100px; */

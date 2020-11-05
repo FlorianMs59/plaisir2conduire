@@ -3,10 +3,10 @@
     height: 80px;
 }
 #logo {
-    width: 150px;
+    width: 300px;
     position: relative;
     top: 35px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 a.nav-link {
     background-color: #1e2761 !important;
@@ -18,8 +18,14 @@ a.nav-link {
     background-color: black;
     transition: all .3s;
     font-family:  Montserrat;
+    color: #FFF;
+    text-align: center;
 }
 a.nav-link:hover {
-    border-bottom: 4px solid #7a2048;
+    border-top: 4px solid #408ec6;
     background-color: #353ea7;
+}
+.navbar-toggler-icon {
+    background-color: #fff;
+    border-radius: 50%;
 }

@@ -8,7 +8,7 @@ $(document).ready(function () {
     $('.navbar-nav a').mouseenter(function() {
             $(this).css("color", "#fff",);
             $(this).css("font-size", "16px",);
-            $(this).css("letter-spacing", "5px",);
+            $(this).css("letter-spacing", "2px",);
 
     });
 
@@ -17,23 +17,9 @@ $(document).ready(function () {
         $(this).css("color", "#FFF");
         $(this).css("font-size", "15px",);
         $(this).css("letter-spacing", "1px",);
-
     });
 
-    function openNav() {
-        document.getElementById("mySidenav").style.width = "100%";
-      }
-      
-      function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-      }
 
-
-    $( "#openNavbar" ).click(function() {
-        $(.show).css("background-color", "#353ea7");
-        $(.show).css("margin-top", "100px");
-
-    });
 
 
 

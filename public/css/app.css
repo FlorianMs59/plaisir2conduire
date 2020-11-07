@@ -1,7 +1,11 @@
+html, body {
+    background-color: #e12761;
+}
 /* MAIN MENU */
 .navbar {
     background-color: #1e2761;
     height: 80px;
+    z-index: 1;
 }
 #logo {
     width: 300px;
@@ -21,11 +25,15 @@ a.nav-link {
     font-family:  Montserrat;
     color: #FFF;
     text-align: center;
+    transition: all .6s;
 }
 a.nav-link:hover {
     border-top: 4px solid #408ec6;
     border-bottom: 4px solid #408ec6;
-    background-color: #353ea7;
+    background-color: #e12761 !important;
+    color: #fff !important;
+    transition: all .6s;
+
 }
 .navbar-toggler-icon {
     background-color: #fff;
@@ -45,6 +53,9 @@ a.nav-link:hover {
     background: #1e2761;
     transition: all .6s;
 }
+.navbar-nav a {
+    background-color: #FFF;
+}
 .show.navbar-nav > .nav-link {
     /* width: 100px; */
 }
@@ -63,4 +74,21 @@ div.navbar-nav.mr-auto.open > .nav-link:hover {
     position: relative;
     margin-top: 28px;
     background-color: wheat;
+}
+
+
+
+
+/* SECTION VEHICULES */
+.vhls {
+    background-color: #1e2761 !important;
+    margin-top: 80px;
+    padding: 16px 0;
+}
+
+.card {
+    margin-top: 24px !important
+}
+.card-img-top {
+    background-size: cover;
 }

@@ -8,7 +8,7 @@
 
 {% block body %}
 
- <div class="header">
+ <div class="header">{# Menu #}
     <nav class="navbar navbar-expand-lg">
 
         <img src="{{ asset('images/logo_size.jpg') }}" id="logo">                
@@ -19,31 +19,128 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
             <div class="navbar-nav mr-auto">
                 <a class="nav-link active menu01" href="/">Accueil</a>
-                <a class="nav-link" href="#">Voitures</a>
-                <a class="nav-link" href="#">Motos</a>
-                <a class="nav-link" href="/test">TEST</a>
+                <a class="nav-link menu02" href="#">Voitures</a>
+                <a class="nav-link menu03" href="#">Motos</a>
+                <a class="nav-link menu04" href="/test">TEST</a>
             </div>
-
-
-
-
-
-
-
-
-
-
-
             
         </div>
 
     </nav>
-  </div>
+  </div>{# Fin du menu #}
 
+<section class="vhls">
+    <div class="container">
+        <div class="row">
+     
 
+            <div class="col-sm-6 col-md-6 col-lg-4">
 
+                <div class="card text-center">
+                    <div class="card-header">
+                      Featured
+                    </div>
+                    <img src="{{ asset('images/speedometer-3237133_1920.jpg') }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                      2 days ago
+                    </div>
+                  </div>
+
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-4">
+
+                <div class="card text-center">
+                    <div class="card-header">
+                      Featured
+                    </div>
+                    <img src="{{ asset('images/speedometer-3237133_1920.jpg') }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                      2 days ago
+                    </div>
+                  </div>
+
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-4">
+
+                <div class="card text-center">
+                    <div class="card-header">
+                      Featured
+                    </div>
+                    <img src="{{ asset('images/car-2370636_1920.jpg') }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                      2 days ago
+                    </div>
+                  </div>
+
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-4">
+
+                <div class="card text-center">
+                    <div class="card-header">
+                      Featured
+                    </div>
+                    <img src="{{ asset('images/car-2370636_1920.jpg') }}" class="card-img-top" alt="...">
+
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                      2 days ago
+                    </div>
+                  </div>
+
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-4">
+
+                <div class="card text-center">
+                    <div class="card-header">
+                      Featured
+                    </div>
+                    <img src="{{ asset('images/logo.png') }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                      2 days ago
+                    </div>
+                  </div>
+
+            </div>
+            
+          
+        </div>
+    </div>
+</section>
+
+<footer style="background-color:#1e2761;margin-top:60px; height:100px;width:100%;">
+
+</footer>
 
 {% endblock %}
         {% block javascripts %}

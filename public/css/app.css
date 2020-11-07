@@ -56,9 +56,6 @@ a.nav-link:hover {
 .navbar-nav a {
     background-color: #FFF;
 }
-.show.navbar-nav > .nav-link {
-    /* width: 100px; */
-}
 div.navbar-nav.mr-auto.open {
     padding-top: 20%;
 }

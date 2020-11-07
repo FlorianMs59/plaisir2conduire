@@ -1,6 +1,10 @@
 html, body {
     background-color: #e12761;
 }
+#voitureSvg {
+    float: left;
+    width: 50px;
+}
 /* MAIN MENU */
 .navbar {
     background-color: #1e2761;

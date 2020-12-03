@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}voitures!{% endblock %}
+
+{% block body %}
+
+    {% for voitures in voiture %}
+    <div class="row">
+
+        <div class="col-4">        
+            <div class="card card-header">Marque : {{voitures.marque}}</div>
+            <div class="card card-body">Modéle : {{voitures.modele}}</div>
+            <div class="card card-body">Description : {{voitures.description}}</div>
+            <div class="card card-footer">Puissance : {{voitures.puissance}} Ch</div>
+        </div>
+
+    </div>
+    {% endfor %}
+
+{% endblock %}
